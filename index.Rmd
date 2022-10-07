@@ -1,0 +1,25 @@
+---
+title: "OLC 657 - Sayısal Alanda Soru Hazırlama"
+output: html_document
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+# remotes::install_github("mitchelloharawild/icons")
+# devtools::install_github("ropenscilabs/icon")
+# https://www.r-bloggers.com/2018/05/icon-web-icons-for-rmarkdown/
+
+# Search icons: https://fontawesome.com/v5.15/icons
+library("fontawesome")
+
+#Setup knitr
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE, warning = FALSE, background = "gray85",
+                      message = FALSE, fig.width=8, fig.height=6, comment = NA,
+                      fig.align = 'center')
+```
+
+
+<br>
+<center>
+</center>
+[**Ölçmede Temel Kavramlar**](SAYS_01.pdf).
+
